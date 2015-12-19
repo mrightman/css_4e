@@ -1,4 +1,4 @@
-/* reset browser styles */
+/* сброс стилей браузера */
 * {
   box-sizing: border-box;
 }
@@ -32,7 +32,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 } 
-/* end reset browser styles */
+/* конец кода сброса стилей браузера */
 
 .clear:after {
   content: " ";
@@ -132,11 +132,11 @@ footer {
 footer a {
 	color: white;	
 }
-/* add tutorial styles below here */
+/* стили из практикума главы 13  */
 .sidebar1 {
   float: left;
   width: 20%;
-  padding: 0 20px 0 10px;	
+  padding: 0 20px 0 10px;
 }
 
 .main {
@@ -156,11 +156,9 @@ footer a {
 footer {
   clear: both;
 }
-
 nav ul, header h1, footer p, .contentWrapper {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto; 
 }
-
 
 

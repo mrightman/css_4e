@@ -1,4 +1,4 @@
-/* Mobile first queries */
+/* запросы mobile first */
 
 body {
   background-color: black;
@@ -92,12 +92,12 @@ body {
   top: 5px;
 }
 
-/* Larger than mobile */
+/* стили для ширины крупнее мобильных */
 @media (min-width: 400px) {
   
 }
 
-/* Larger than phablet */
+/* стили для ширины крупнее фаблетов */
 @media (min-width: 550px) {
   .info {
     padding-top: 20px;
@@ -111,14 +111,14 @@ body {
   }
 }
 
-/* Larger than tablet */
+/* стили для ширины крупнее планшетов */
 @media (min-width: 750px) {
   .action {
     padding: 75px 0 25px;
   }
 }
 
-/* Larger than desktop */
+/* стили для ширины крупнее компьютерных мониторов */
 @media (min-width: 1000px) {
   .header {
     padding: 50px 0;

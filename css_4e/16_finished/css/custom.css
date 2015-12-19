@@ -1,5 +1,5 @@
-/* Mobile first queries */
-/* applies to ALL widths */
+/* запросы mobile first */
+/* стили для любой ширины */
 .header {
   padding: 30px 0 20px 0;
   margin-bottom: 25px;
@@ -48,14 +48,14 @@ h2 {
 }
 
 
-/* Larger than mobile */
-/* applies to all widths 400px and greater */
+/* стили для ширины крупнее мобильных */
+/* стили для ширины 400 пикселов и выше */
 @media (min-width: 400px) {
  
 }
 
-/* Larger than phablet */
-/* applies to all widths 550px and greater */
+/* стили для ширины крупнее фаблетов */
+/* стили для ширины 550 пикселов и выше */
 @media (min-width: 550px) {
   .header {
     padding: 40px 0 50px 0;
@@ -77,8 +77,8 @@ h2 {
   }
 }
 
-/* Larger than tablet */
-/* applies to all widths 750px and greater */
+/* стили для ширины крупнее планшетов */
+/* стили для ширины 750 пикселов и выше */
 @media (min-width: 750px) {
   .logo {
     font-size: 3rem;
@@ -87,14 +87,14 @@ h2 {
   }
 }
 
-/* Larger than desktop */
-/* applies to all widths 100px and greater */
+/* стили для ширины крупнее компьютерных мониторов */
+/* стили для ширины 1000 пикселов и выше */
 @media (min-width: 1000px) {
   
 }
 
-/* Larger than Desktop HD */
-/* applies to 1200px and greater */
+/* стили для ширины крупнее компьютерных HD-мониторов */
+/* стили для ширины 1200 пикселов и выше */
 @media (min-width: 1200px) {
 
 }

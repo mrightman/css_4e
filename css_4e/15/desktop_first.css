@@ -1,4 +1,4 @@
-/* reset browser styles */
+/* сброс стилей браузера */
 * { box-sizing: border-box; }
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
@@ -28,23 +28,23 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 } 
-/* end reset browser styles */
+/* конец кода сброса стилей браузера */
  
-/* Put styles for desktop and basic styles for all devices here */
+/* стили для компьютеров и базовые стили для всех устройств  */
 body {
-  /* properties for body here */
+  /* свойства тела страницы */
 }
 
-/* medium display only */
+/* только для устройств со средним размером экрана */
 @media (min-width: 481px) and (max-width:768px) {
   body {
-    /* properties that only apply to tablets */
+    /* только для планшетов */
   }
 
 }
-/* small display only */
+/* только для устройств с малым размером экрана */
 @media (max-width:480px) {
   body {
-    /* properties that only apply to phones */
+    /* только для смартфонов */
   }
 }

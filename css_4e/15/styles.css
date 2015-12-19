@@ -1,4 +1,4 @@
-/* reset browser styles */
+/* сброс стилей браузера */
 * {
   box-sizing: border-box; 
 }
@@ -30,7 +30,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 } 
-/* end reset browser styles */
+/* конец кода сброса стилей браузера */
 
 .clear:after {
   content: " ";
@@ -127,10 +127,9 @@ footer {
 footer a {
 	color: white;	
 }
-/* add tutorial styles below here */
+/* пользовательские стили  */
 
-/* uncomment this style if you want the entire page -- including background colors --
-   constrained inside a 1200 pixel, centered box */
+/* раскомментируйте этот стиль, если хотите всю страницу, включая фоновый цвет, ограничить центрированным блоком размером 1200 пикселов  */
 /*.pageWrapper {
 	max-width: 1200px;
 	margin: 0 auto;	

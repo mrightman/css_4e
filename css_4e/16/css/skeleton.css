@@ -124,7 +124,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
 
@@ -141,7 +141,7 @@ h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
 h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
-/* Larger than phablet */
+/* стили для ширины крупнее фаблетов */
 @media (min-width: 550px) {
   h1 { font-size: 5.0rem; }
   h2 { font-size: 4.2rem; }
@@ -402,17 +402,17 @@ there.
 */
 
 
-/* Larger than mobile */
+/* стили для ширины крупнее мобильных */
 @media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
 
-/* Larger than tablet */
+/* стили для ширины крупнее планшетов */
 @media (min-width: 750px) {}
 
-/* Larger than desktop */
+/* стили для ширины крупнее компьютерных мониторов */
 @media (min-width: 1000px) {}
 
-/* Larger than Desktop HD */
+/* стили для ширины крупнее компьютерных HD-мониторов */
 @media (min-width: 1200px) {}
